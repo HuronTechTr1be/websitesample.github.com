@@ -1,0 +1,199 @@
+/* For the announcement banner */
+#announcement {
+    display: none;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: fixed;
+}
+
+/* For the navigation menu */
+#navbar {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: -20px;
+    font-family: Bitter;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+/* For banners */
+#banner {
+    background-image: url(GlobalImages/REGKifliImage.jpg);
+    background-position: center;
+    background-size: auto;
+    text-align: center;
+    font-size: large;
+    padding: 50px;
+    margin: -20px;
+    font-family: Bitter;
+    font-size: 48px;
+    color: white;
+}
+
+/* For most headers on pages */
+#standardContent {
+    background-color: tan;
+    padding: 20px;
+    margin: -20px;
+    font-family: Bitter;
+}
+
+/* For content that includes an image of some sort, use #regContent */
+#regContent {
+    background-color: tan;
+    padding: 20px;
+    margin: -20px;
+    font-family: Bitter;
+    display: flex;
+    color: black;
+    font-size: large;
+}
+
+/* For Common Content*/
+.container {
+    background-color: red;
+    width: 50px;
+}
+
+.carousel-item {
+    background-color: red;
+    width: 50px;
+}
+
+/* Styled Button */
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0px 20px;
+    font-size: 1rem;
+    justify-content: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2) 30%,
+            rgba(0, 0, 0, 0));
+    box-shadow:
+        inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow:
+        inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+        inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Nagivation Design */
+nav {
+    /* Position it absolutely to the right */
+    position: absolute;
+    right: 10px;
+    /* Remove the default margin and padding */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the ul element */
+ul {
+    /* Remove the default list style */
+    list-style: none;
+    /* Remove the default margin and padding */
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the li element */
+li {
+    /* Display it as an inline-block element */
+    display: inline-block;
+    /* Add some padding */
+    padding: 10px;
+}
+
+/* Style the a element */
+a {
+    /* Remove the default text decoration */
+    text-decoration: none;
+    /* Add some color */
+    color: white;
+    /* Add some padding */
+    padding: 10px;
+}
+
+/* Style the a element on hover */
+a:hover {
+    /* Change the background color */
+    color: #ff0505;
+}
+
+/* Style the nested ul element */
+ul ul {
+    /* Position it absolutely to the bottom of the parent li element */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    /* Hide it by default */
+    display: none;
+    /* Add some width */
+    width: 200px;
+    /* Add a background color */
+    background-color: #000;
+    /* Increase Padding */
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Style the nested li element */
+ul ul li {
+    /* Display it as a block element */
+    display: block;
+    /* Remove the padding */
+    padding: 0;
+}
+
+/* Style the nested a element */
+ul ul a {
+    /* Remove the padding */
+    padding: 0;
+}
+
+/* Show the nested ul element on hover */
+ul li:hover>ul {
+    /* Change the display to block */
+    display: block;
+}
+
+/* Style the nested nested ul element */
+ul ul ul {
+    /* Position it absolutely to the right of the parent li element */
+    position: absolute;
+    top: 0;
+    left: 100%;
+    /* Hide it by default */
+    display: none;
+    /* Add some width */
+    width: 200px;
+}
+
+/* Show the nested nested ul element on hover */
+ul ul li:hover>ul {
+    /* Change the display to block */
+    display: block;
+}
